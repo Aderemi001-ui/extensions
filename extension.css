@@ -1,0 +1,324 @@
+.body{
+ background:linear-gradient(to bottom, #040918 10% , #091540 );
+   width: 1300px;
+   height: 150vh;
+   margin: 130px 30px 80px 80px;
+  
+   color:white;
+   
+}
+.delete{
+    width:70px;
+    background-color:grey;
+    height:30px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top:7px ;
+}
+.container{
+ background-color: hsl(226, 25%, 17%) ; 
+width: 1200px;
+height: 50px;
+border-radius:10px ;
+margin-left: 20px;
+justify-content: center;
+align-content: center;
+padding-top: 5px;
+padding-left: 5px;
+display: flex;
+gap: 980px;
+}
+#svg1{
+    fill:#ffffff;                                                                                                                           ;
+}
+#moon{
+  background-color: #2f364b;
+   width:30px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 7px;
+    border-radius: 5px;
+z-index: 1;
+    margin-top :5px; ;
+    margin-left: -90px;
+    
+}
+.theme{
+    display: flex;
+    margin-right: 40px;
+}
+#sun{
+    width:30px;
+    height:30px;
+    background-color: #2f364b;
+   padding-left:7px;
+   padding-top: 7px;
+   border-radius: 5px;
+   margin-top: 4px;
+   margin-right: 5px;
+   z-index: 0;
+}
+.div2{
+    display: flex;
+    gap: 750px;
+    margin-left: 20px;
+}
+.state{
+    display: flex;
+    gap:15px;
+   
+}
+.states{
+    width: 70px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #2f364b;
+    align-content: center;
+   text-align: center;
+   border-radius: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap:-55px;
+    row-gap: 15px;
+    width: 1300px;
+    margin-left: 15px;
+}
+.extension{
+    width: 370px;
+    height: 150px;
+    background-color: #2f364b;
+    padding: 10px;
+    border-radius: 10px;
+}
+#devlensup{
+    display: flex;
+    gap: 25px;
+    
+}
+.word1{
+    margin-top:-15px;
+}
+#stylespy{
+    margin-left: -25px;
+}
+#speedboost{
+    margin-left: -50px; 
+}
+#tabmaster{
+     margin-left: -25px;
+}
+#viewport{
+     margin-left: -50px;
+}
+#gridguide{
+     margin-left: -25px;
+}
+#palette{
+     margin-left: -50px;
+}
+#domsnap{
+     margin-left: -25px;
+}
+#console{
+     margin-left: -50px;
+}
+.round{
+    background-color: gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.circle{
+    background-color: #ffffff;
+     height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin-top: -20px;
+}
+.rectangle{
+    width: 55px;
+    height:20px;
+    background-color: gray;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.remove{
+    display: flex;
+    gap: 200px;
+    margin-left: 30px;
+}
+.svg2{
+    width: 50px ;
+    height: 50px;
+}
+.StyleSpy{
+    display: flex;
+    gap: 25px;
+}
+.speed{
+     display: flex;
+    gap: 25px;
+    
+}
+.json{
+    display: flex;
+    gap: 25px;  
+}
+.tab{
+    display: flex;
+    gap: 25px; 
+}
+.view{
+    display: flex;
+    gap: 25px; 
+}
+.markup{
+      display: flex;
+    gap: 25px; 
+}
+.guide{
+      display: flex;
+    gap: 25px; 
+}
+.cpalette{
+       display: flex;
+    gap: 25px; 
+}
+.linker{
+       display: flex;
+    gap: 25px; 
+}
+.dom{
+       display: flex;
+    gap: 25px; 
+}
+.console{
+       display: flex;
+    gap: 25px; 
+    
+}
+@media(min-width:400px){
+.body{
+ background:linear-gradient(to bottom, #040918 10% , #091540 );
+   width: 390px;
+   height: 400vh;
+  justify-self: center;
+  align-self: center;
+   color:white;
+   
+}
+.container{
+ background-color: hsl(226, 25%, 17%) ; 
+width: 380px;
+height: 50px;
+border-radius:10px ;
+margin-left: -20px;
+justify-self: center;
+align-self: center;
+padding-top: 5px;
+padding-left: 5px;
+display: flex;
+gap: 260px;
+}
+#extension1{
+    margin-right: 20px;
+}
+#extension3{
+    margin-left: 20px;
+}
+#extension4{
+    margin-right: 30px;
+}
+#extension5{
+    margin-right: 5px;
+}
+#extension6{
+   margin-left: 15px; 
+}
+#extension7{
+    margin-right: 30px;
+}
+#extension9{
+    margin-left: 30px;
+}
+#extension10{
+    margin-right: 20px;
+}
+#extension12{
+margin-left: 30px;
+}
+.div2{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+.grid{
+    display: flex;
+   flex-direction: column;
+   justify-self: center;
+    width: 390px;
+    margin-left: 15px;
+
+}
+.extension{
+    width: 370px;
+    height: 150px;
+    background-color: #2f364b;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.StyleSpy{
+    display: flex;
+    gap: 25px;
+    
+}
+.speed{
+     display: flex;
+    gap: 25px;
+    
+}
+.json{
+    display: flex;
+    gap: 25px;  
+}
+.tab{
+    display: flex;
+    gap: 25px; 
+}
+.view{
+    display: flex;
+    gap: 25px; 
+}
+.markup{
+      display: flex;
+    gap: 25px; 
+}
+.guide{
+      display: flex;
+    gap: 25px; 
+}
+.cpalette{
+       display: flex;
+    gap: 25px; 
+}
+.linker{
+       display: flex;
+    gap: 25px; 
+}
+.dom{
+       display: flex;
+    gap: 25px; 
+}
+.console{
+       display: flex;
+    gap: 25px; 
+    
+}
+}
