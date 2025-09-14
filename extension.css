@@ -202,7 +202,7 @@ z-index: 1;
     gap: 25px; 
     
 }
-@media(min-width:400px){
+@media(max-width:400px){
 .body{
  background:linear-gradient(to bottom, #040918 10% , #091540 );
    width: 390px;
